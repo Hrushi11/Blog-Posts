@@ -8,7 +8,7 @@ To understand “Deep Learning” first let us try to understand how it is relat
 
 From this figure we can clearly understand the importance of deep learning as a subset of AI.
 
-Deep Learning is learning the deep, in-depth patterns and important features of a dataset. Dataset here means the collection of different kinds of data that we want to study and predict a result from it. The history of Deep Learning can be traced back to 1943 when Walter Pitts and Warren McCulloch created a computer model based on the neural networks of the human brain.
+Deep Learning is learning the deep, in-depth patterns and important features of a dataset. Dataset here means the collection of different kinds of data that we want to study and, predict a result from. The history of Deep Learning can be traced back to 1943 when Walter Pitts and Warren McCulloch created a computer model based on the neural networks of the human brain.
 
 This blog deals with the basic understanding of how a Neural network works.
 
