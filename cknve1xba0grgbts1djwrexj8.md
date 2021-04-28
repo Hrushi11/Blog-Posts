@@ -126,8 +126,9 @@ So now let's try to understand how the algorithm will learn the patterns and giv
 
 For the first time when we train a model we pass it both the image as well as the true label or the correct answer to the image so that the algorithm might correct itself every time it predicts a wrong output. This process of correction of the prediction is iterative within the model until the model predicts it correctly. With this repetitive prediction and correction, the model learns the patterns and gets better.
 
-The term used for this iterative correction process is Backpropagation or backward propagation - helps to calculate the gradient of a loss function with respect to all the inputs in the network.
-This was all the theory for a simple basic 1 layered Neural Network. In the next blog, we will discuss how to implement this in code using python.
+The term used for this iterative correction process is Back-propagation or backward propagation - helps to calculate the gradient of a loss function with respect to all the inputs in the network.
+
+This was all the theory needed for a, simple basic 1 layered Neural Network. In the next blog, we will discuss how to implement this in code using python.
 
 
   
