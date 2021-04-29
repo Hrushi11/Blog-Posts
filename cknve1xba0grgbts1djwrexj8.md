@@ -128,7 +128,26 @@ For the first time when we train a model we pass it both the image as well as th
 
 The term used for this iterative correction process is Back-propagation or backward propagation - helps to calculate the gradient of a loss function with respect to all the inputs in the network.
 
+The Back-propagation function which we use in this case is : <br>
+>Loss function : <br>
+  L(yhat, y) = -(ylog yhat + (1-y)log (1-y)) <br>
+
+> Cost function : <br>
+$$  
+\begin{equation}
+J(w, b) = \sum_{i=1}^{m} [ L(yhat^i, y^i) ]
+\end{equation}
+$$
+
+= - 1 / m Σ<sup>m</sup><sub>i=1</sub>[ y<sup>(i)</sup>log yhat<sup>(i)</sup> + (1 - 
+                  y<sup>(i)</sup>)log (1 - yhat<sup>(i)</sup>) ]
+
+The loss function computes the error for a single training example; the cost function is the average of the loss functions of the entire training set.
+
+> One step of backward propagation on a computation graph yields derivative of final output variable.
+
 This was all the theory needed for a, simple basic 1 layered Neural Network. In the next blog, we will discuss how to implement this in code using python.
+
 
 
   
