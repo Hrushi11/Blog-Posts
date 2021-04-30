@@ -130,7 +130,11 @@ The term used for this iterative correction process is Back-propagation or backw
 
 The Back-propagation function which we use in this case is : <br>
 >Loss function : <br>
-  L(yhat, y) = -(ylog yhat + (1-y)log (1-y)) <br>
+  $$  
+  \begin{equation}
+  L(yhat, y) = -[y\log yhat + (1-y)\log (1-y)]
+  \end{equation}
+  $$
 
 > Cost function : <br>
 $$  
@@ -138,16 +142,18 @@ $$
 J(w, b) = \sum_{i=1}^{m} [ L(yhat^i, y^i) ]
 \end{equation}
 $$
-
-= - 1 / m Σ<sup>m</sup><sub>i=1</sub>[ y<sup>(i)</sup>log yhat<sup>(i)</sup> + (1 - 
-                  y<sup>(i)</sup>)log (1 - yhat<sup>(i)</sup>) ]
+>
+$$  
+\begin{equation}
+ = - \frac{1}{m} \sum_{i=1}^{m} [ y^i\log yhat^i + (1 - y)^i\log (1 - yhat^i)  ]
+\end{equation}
+$$
 
 The loss function computes the error for a single training example; the cost function is the average of the loss functions of the entire training set.
 
 > One step of backward propagation on a computation graph yields derivative of final output variable.
 
 This was all the theory needed for a, simple basic 1 layered Neural Network. In the next blog, we will discuss how to implement this in code using python.
-
 
 
   
