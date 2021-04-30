@@ -139,7 +139,7 @@ The Back-propagation function which we use in this case is : <br>
 > Cost function : <br>
 $$  
 \begin{equation}
-J(w, b) = \sum_{i=1}^{m} [ L(yhat^i, y^i) ]
+J(w, b) = \frac{1}{m} \sum_{i=1}^{m} [ L(yhat^i, y^i) ]
 \end{equation}
 $$
 >
