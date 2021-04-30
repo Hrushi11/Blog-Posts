@@ -145,7 +145,7 @@ $$
 >
 $$  
 \begin{equation}
- = - \frac{1}{m} \sum_{i=1}^{m} [ y^i\log yhat^i + (1 - y)^i\log (1 - yhat^i)  ]
+ = - \frac{1}{m} \sum_{i=1}^{m} [ y^i\log yhat^i + (1 - y^i)\log (1 - yhat^i)  ]
 \end{equation}
 $$
 
