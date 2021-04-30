@@ -65,15 +65,38 @@ These outputs are the correct predictions for a picture, like if it is a cat the
 
 ![notation x.jpeg](https://cdn.hashnode.com/res/hashnode/image/upload/v1619245596430/YXlRKGbxz.jpeg)
 
-Y = [y<sup>(1)</sup>, y<sup>(2)</sup>, y<sup>(3)</sup>, … y<sup>(m)</sup>]
+$$  
+\begin{equation}
+Y = [y^1, y^2, y^3, … y^m]
+\end{equation}
+$$
 
-(X, Y)  X ∈  R<sup>n<sub>x</sub></sup> , Y ∈ {0, 1} 
+$$  
+\begin{equation}
+(X, Y) \longrightarrow \hspace{1cm} X \in R^{n_{x}} , \hspace{1cm} Y \in [0, 1]
+\end{equation}
+$$
 
-m training examples : {(x<sup>(1)</sup>, y<sup>(1)</sup>), (x<sup>(2)</sup>, y<sup>(2)</sup>) , (x<sup>(3)</sup>, y<sup>(3)</sup>) , … (x<sup>(m)</sup>, y<sup>(m)</sup>)}
+m training examples :
+$$  
+\begin{equation}
+[(x^{(1)}, y^{(1)}), (x^{(2)}, y^{(2)}) , (x^{(3)}, y^{(3)}) , … (x^{(m)}, y^{(m)})]
+\end{equation}
+$$
 
-X.shape = (n<sub>x</sub>, m)
+X.shape =
+$$  
+\begin{equation}
+(n_{x}, m)
+\end{equation}
+$$
 
-Y.shape = (1,m)
+Y.shape = 
+$$  
+\begin{equation}
+(1, m)
+\end{equation}
+$$
 
 ## Logistic Regression :
 
@@ -86,14 +109,28 @@ If you are worried about how to pass the image then remember we already know tha
 
 **The Logistic Regression In mathematical form is :**
 
-Sigmoid(z) =  1 / (1 + e<sup>-z</sup>)
+$$  
+\begin{equation}
+\sigma(z) =  \frac{1}{1 + e^{-z}} 
+\end{equation}
+$$
 
 
 ![sigmoid function.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1619246064498/mcqet6u9Q.png)
 
-If z is large sigmoid(z) -> 1/(1 + 0) = 1
+If z is large sigmoid(z) -> 
+$$  
+\begin{equation}
+\frac{1}{1 + 0} = 1
+\end{equation}
+$$
 
-If z is large negative number sigmoid(z) -> 1 / (1 + ♾) = 0
+If z is large negative number sigmoid(z) -> 
+$$  
+\begin{equation}
+\frac{1}{1 + \infty} = 0
+\end{equation}
+$$
 
 So now you have a brief idea about logistic regression and its application more importantly why we need it. Let’s get back to the Neural Network and try linking the logistic regression with it so that it makes more sense.
 
@@ -114,9 +151,13 @@ As you already know about deep learning and up till now you have got an idea abo
 Each node to node neural network is a mathematical function that results in output and then these outputs are again passed into some another function to reach the final result. * (This para might be confusing but you would get it more clear in further articles) *
 
 This idea of a neural network is all based on the solution to the simple mathematical equation of :
-yhat = P(y=1|X) 
+$$  
+\begin{equation}
+\hat{y} = P(y=1|X)
+\end{equation}
+$$
 
-which means, what is the probability of yhat being 1, given X, where, yhat is the probability of output being 1 and X is a matrix with all the images in pixels.
+which means, what is the probability of yhat being 1, given X, where, \hat{y} is the probability of output being 1 and X is a matrix with all the images in pixels.
 
 *(Important paras ahead)*
 
@@ -132,20 +173,20 @@ The Back-propagation function which we use in this case is : <br>
 >Loss function : <br>
   $$  
   \begin{equation}
-  L(yhat, y) = -[y\log yhat + (1-y)\log (1-y)]
+  L(\hat{y}, y) = -[y\log \hat{y} + (1-y)\log (1-y)]
   \end{equation}
   $$
 
 > Cost function : <br>
 $$  
 \begin{equation}
-J(w, b) = \frac{1}{m} \sum_{i=1}^{m} [ L(yhat^i, y^i) ]
+J(w, b) = \frac{1}{m} \sum_{i=1}^{m} [ L(\hat{y}^i, y^i) ]
 \end{equation}
 $$
 >
 $$  
 \begin{equation}
- = - \frac{1}{m} \sum_{i=1}^{m} [ y^i\log yhat^i + (1 - y^i)\log (1 - yhat^i)  ]
+ = - \frac{1}{m} \sum_{i=1}^{m} [ y^i\log \hat{y}^i + (1 - y^i)\log (1 - \hat{y}^i)  ]
 \end{equation}
 $$
 
@@ -156,7 +197,8 @@ The loss function computes the error for a single training example; the cost fun
 This was all the theory needed for a, simple basic 1 layered Neural Network. In the next blog, we will discuss how to implement this in code using python.
 
 
-  
+
+
 
 
 
