@@ -107,7 +107,7 @@ Each circle in the diagram is a neuron or a node. The first 4 nodes are called i
 
 The orange neurons shown in the above diagram are the ones where the Logistic Regression cost function * (is discussed in further articles) * comes into action and the orange to blue neuron is the place where the sigmoid function comes into the action.
 
-## Working of a neural network with logistic regression :
+## Working of a Neural Network with Logistic Regression :
 
 As you already know about deep learning and up till now you have got an idea about logistic regression as well, let’s try to understand how neural networks work.
 
