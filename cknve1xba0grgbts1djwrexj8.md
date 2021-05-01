@@ -118,17 +118,17 @@ $$
 
 ![sigmoid function.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1619246064498/mcqet6u9Q.png)
 
-If z is large sigmoid(z) -> 
+If z is large  -> 
 $$  
 \begin{equation}
-\frac{1}{1 + 0} = 1
+\sigma(z) = \frac{1}{1 + 0} = 1
 \end{equation}
 $$
 
-If z is large negative number sigmoid(z) -> 
+If z is large negative number  -> 
 $$  
 \begin{equation}
-\frac{1}{1 + \infty} = 0
+\sigma(z) = \frac{1}{1 + \infty} = 0
 \end{equation}
 $$
 
