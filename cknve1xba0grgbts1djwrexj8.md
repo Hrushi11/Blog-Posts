@@ -157,7 +157,7 @@ $$
 \end{equation}
 $$
 
-which means, what is the probability of yhat being 1, given X, where, \hat{y} is the probability of output being 1 and X is a matrix with all the images in pixels.
+which means, what is the probability of ŷ being 1, given X, where, ŷ is the probability of output being 1 and X is a matrix with all the images in pixels.
 
 *(Important paras ahead)*
 
