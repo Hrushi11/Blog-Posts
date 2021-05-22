@@ -53,6 +53,8 @@ import os
 
 %matplotlib inline
 ```
+### Getting the dataset ready
+
 To be able to code our model we will need a dataset, download these files from [here](https://github.com/Hrushi11/Blogs-Repository/tree/main/Programming%20Neural%20Networks) and change the `<your_train_file_path>` with the location of train_catvnoncat.h5 file on your local device.
 
 To load the dataset :
