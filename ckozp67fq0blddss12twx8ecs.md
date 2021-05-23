@@ -98,7 +98,7 @@ This outputs :
 
 ![cat.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1621670604931/LA17GFLG4.png)
 
-For convenience, we should now reshape images of shape (num_px, num_px, 3) in a numpy-array of shape (num_px * num_px * 3, 1). After this, our training (and test) dataset is a numpy-array where each column represents a flattened image. There should be m_train (respectively m_test) columns.
+For convenience, we should now reshape images of shape (num_px, num_px, 3) in a numpy-array of shape (num_px \* num_px \* 3, 1). After this, our training (and test) dataset is a numpy-array where each column represents a flattened image. There should be m_train (respectively m_test) columns.
 
 ```elem
 # Reshape the training and test examples
