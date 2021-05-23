@@ -300,9 +300,9 @@ It should look something like this after running
 
 ![final_out.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1621674258136/gxatM_qrN.jpeg)
 
-The training accuracy is 100% which means our model is overfitting the training data, but no worries we will learn regularization in future which will take of this. 
+The training accuracy is 100% which means our model is overfitting the training data, but no worries we will learn regularization in future which will take care of this. 
 
-The test accuracy is 70% which is not quite good but still this being just a logistic regression model it is worth, In the future blogs when we will train actual Neural networks these scores will be more digestable.
+The test accuracy is 70% which is not quite good but still this being just a logistic regression model it is worth, In the future blogs, when we will train actual Neural networks these scores will be more digestable.
 
 The Learning rate is :
 
