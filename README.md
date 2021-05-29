@@ -12,3 +12,4 @@ Also visiting this link you can subscribe to my newsletter, never miss my upcomi
 1. [Telecom Users Churn Machine Learning Model Workflow](https://heightsforai.hashnode.dev/telecom-users-churn-machine-learning-model-workflow)
 2. [Deep Learning with Neural Networks](https://heightsforai.hashnode.dev/deep-learning-with-neural-networks)
 3. [Programming Neural Networks](https://heightsforai.hashnode.dev/programming-neural-networks)
+4, [Programming Neural Networks with tensorflow](https://heightsforai.hashnode.dev/programming-neural-networks-with-tensorflow)
