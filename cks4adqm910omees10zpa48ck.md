@@ -247,5 +247,6 @@ print(bot1.bot_choice)
 
 So, finally we are done with this project, all the files for this project are available here - [Rock-Paper-Scissors-Game](https://github.com/Hrushi11/Blogs-Repository/tree/main/Rock-Paper-Scissors-Game).
 
+To know more about me you can visit - [Heights for AI](https://hrushi11.github.io/Heights-for-AI/)
 
 %[https://github.com/Hrushi11/Blogs-Repository/tree/main/Rock-Paper-Scissors-Game]
